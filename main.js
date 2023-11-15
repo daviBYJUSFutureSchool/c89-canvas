@@ -7,7 +7,7 @@ var width = screen.width;
     
     color = "black";
     widthOfLine = 2;
-
+     var width = screen.width;
     //Defina as variável "newWidth" e "newHeight" para armazenar a width e height da nova tela.
     newWidth = screen.width - 70;
     newHeight = screen.height - 300;
@@ -81,6 +81,6 @@ var width = screen.width;
 
     function clearArea() {
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-        
+
     }
 
